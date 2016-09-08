@@ -41,5 +41,36 @@ echo "<br/>";
 echo PHP_VERSION;
 echo "<br/>";
 echo PHP_OS;
+$whatis="ilovepelmni";
+unset($whatis);
+echo $whatis;
+$whatis="pelmeni is life";
+$random=43;
+$result=$whatis.$random;
+if(is_integer($result))
+{
+echo "INT";
+}
+else
+{
+echo "<br/>";
+echo "NOT INT";
+echo "<br/>";
+}
+
+if(is_string($result))
+{
+echo "STR";
+}
+else
+{
+echo "<br/>";
+echo "NOT STR";
+}
+
+$varone="73";
+$vartwo="27";
+$results=$varone+$vartwo;
+echo $result;
 ?>
 
